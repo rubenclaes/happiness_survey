@@ -32,37 +32,54 @@ This app is a web app where the focus is on mobile devices. **Fun** and **mobile
 ## 2. Attributes New Project
 ### Description 
 ![New Project Attributes Page](https://github.com/rubenclaes/happiness_survey/blob/master/Doc/images/1-Nieuw-Project-0-mobile-79215344-1515750567.png)![Behaviour](https://github.com/rubenclaes/happiness_survey/blob/master/Doc/gifs/new_project.gif)
+
+This is the first step.
 ### User Stories
 |#1|_As a user, I want to select multiple attributes, so that I can indicate my most important items when working on new projects_
 |-----|----|
-|**_Acceptance Criteria_**|  By default, no items are selected, and the button at the button is disabled.
+|**_Acceptance Criteria_**|  By default, no items are selected, and the button at the bottom is disabled.
 |     | After selecting an item in the list of attributes, the background color of this particular item needs to be changed with a different. This makes it clear for the user that the item is "selected"    
 |     | The user needs to select at least 10 items (this is defined in the settings part of the app). When he did not choose 10 items a dialog will pop up and he cannot proceed to the next step.
 |     | The list of attributes needs to be "scrollable". This way the user has the possibility to select different items that cannot be displayed on the screen initial.
-|     | The user cannot proceed to the next page/step of the app when he didn't select the minimal items. Therefore the button at the bottom will be disabled.    |
+|     | The user cannot proceed to the next page/step of the app when he didn't select the minimal number of items. Therefore the button at the bottom will be disabled.    |
 
 |#2|_As a user, I want to see how many attributes I selected, so that I have a clear overview of how many items I still can select_ 
 |-----|----|
-|Acceptance Criteria|  By default, the counter is displayed and has the value "0" 
+|**_Acceptance Criteria_**|  By default, the counter is displayed and has the value "0" 
 |     |After selecting an item in the list of attributes, the counter value will change. It will add up in value by "1".
 |     | The counter needs to be "sticky" positioned. This means that the counter will be visible at all time, also when the users scrolls down or up.
 
 |#3|_As a user, I want to see my progress of completing the survey, so that I can see quickly how many steps I need to take to finish the survey_ 
 |-----|----|
-|Acceptance Criteria|  By default, the "stepper" is displayed at the top of the app and is "sticky" positioned.  
+|**_Acceptance Criteria_**|  By default, the "stepper" is displayed at the top of the app and is "sticky" positioned.  
 |     | When the user proceeds to the next step of the app, the sticky progress bar (or stepper) will visualize the step he is in. 
 
 ## 3. Attributes Current Project
 ### Description 
 ![Current Project Attributes Page](https://github.com/rubenclaes/happiness_survey/blob/master/Doc/images/3-Huidig-Project-0-mobile-79218290-1515747339.png)
+
+This is the final step. 
 ### User Stories
 
 
-|#1|As a user, I want to select multiple attributes, so that I can indicate my most important items when working on new projects 
+|#1|_As a user, I want to select multiple attributes, so that I can indicate my most important items when working on current projects_
 |-----|----|
-|Acceptance Criteria|  By default, there is a client manager filter for each client manager in the dropdown list. These are predefined. In the mock-up, we defined only one for Wim. 
-|     |After selecting the filter in the dropdown, the dropdown list closes again and the data changes immediately according to the filter.    
-|     | Predefined segment filters cannot be removed or changed by the user. So, this means that the edit and delete icons will not be displayed. 
+|**_Acceptance Criteria_**|  By default, no items are selected, and the button at the bottom is disabled.
+|     | After selecting an item in the list of attributes, the background color of this particular item needs to be changed with a different. This makes it clear for the user that the item is "selected"    
+|     | The user can select as **many** items as he wants. But at least 1. When he didn't choose 1 item a dialog will pop up and he cannot proceed to the next step.
+|     | The list of attributes needs to be "scrollable". This way the user has the possibility to select different items that cannot be displayed on the screen initial.
+|     | The user cannot proceed to the next page/step of the app when he didn't select the minimal number of items. Therefore the button at the bottom will be disabled.    |
+
+|#2|_As a user, I want to see how many attributes I selected, so that I have a clear overview of how many items I still can select_ 
+|-----|----|
+|**_Acceptance Criteria_**|  By default, the counter is displayed and has the value "0" 
+|     |After selecting an item in the list of attributes, the counter value will change. It will add up in value by "1".
+|     | The counter needs to be "sticky" positioned. This means that the counter will be visible at all time, also when the users scrolls down or up.
+
+|#3|_As a user, I want to see my progress of completing the survey, so that I can see quickly how many steps I need to take to finish the survey_ 
+|-----|----|
+|**_Acceptance Criteria_**|  By default, the "stepper" is displayed at the top of the app and is "sticky" positioned.  
+|     | When the user proceeds to the next step of the app, the sticky progress bar (or stepper) will visualize the step he is in. 
 ## 3. Finish
 ### Description 
 ### User Stories
