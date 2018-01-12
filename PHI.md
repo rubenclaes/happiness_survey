@@ -52,10 +52,12 @@ This app is a web app where the focus is on mobile devices. **Fun** and **mobile
 |Acceptance Criteria|  By default, the "stepper" is displayed at the top of the app and is "sticky" positioned.  
 |     | When the user proceeds to the next step of the app, the sticky progress bar (or stepper) will visualize the step he is in. 
 
-
 ## 3. Attributes Current Project
 ### Description 
+![Current Project Attributes Page](https://github.com/rubenclaes/happiness_survey/blob/master/Doc/images/3-Huidig-Project-0-mobile-79218290-1515747339.png)
 ### User Stories
+
+
 |#1|As a user, I want to select multiple attributes, so that I can indicate my most important items when working on new projects 
 |-----|----|
 |Acceptance Criteria|  By default, there is a client manager filter for each client manager in the dropdown list. These are predefined. In the mock-up, we defined only one for Wim. 
