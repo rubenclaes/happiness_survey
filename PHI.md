@@ -31,7 +31,7 @@ This app is a web app where the focus is on mobile devices. **Fun** and **mobile
 
 ## 2. Attributes New Project
 ### Description 
-![New Project Attributes Page](https://github.com/rubenclaes/happiness_survey/blob/master/Doc/images/1-Nieuw-Project-0-mobile-79215344-1515750567.png)![Welcome Page Mobile](https://github.com/rubenclaes/happiness_survey/blob/master/Doc/images/0-Welcome-0-mobile-79214381-1515750330.png)
+![New Project Attributes Page](https://github.com/rubenclaes/happiness_survey/blob/master/Doc/images/1-Nieuw-Project-0-mobile-79215344-1515750567.png)![Behaviour](https://github.com/rubenclaes/happiness_survey/blob/master/Doc/gifs/new_project.gif)
 ### User Stories
 |#1|_As a user, I want to select multiple attributes, so that I can indicate my most important items when working on new projects_
 |-----|----|
